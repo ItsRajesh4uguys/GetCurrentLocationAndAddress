@@ -41,7 +41,7 @@ public class MainActivity extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				
-				myLocation=new MyLocation();
+				
 				turnGPSOn();
 				getMyCurrentLocation();
 				
@@ -206,7 +206,7 @@ public class MainActivity extends Activity {
 	private boolean gps_enabled=false;
 	private boolean network_enabled=false;
 	Location location;
-	MyLocation myLocation;	
+	
 	Double MyLat, MyLong; 
 	String CityName="";
 	String StateName="";
